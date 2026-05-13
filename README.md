@@ -16,10 +16,3 @@ A Vite + React project for a browser-based snake game.
 
 This repository is configured to deploy `dist/` to GitHub Pages via GitHub Actions.
 The published site will be available at: `https://hychang23.github.io/GAS/`
-
-### Requirements
-
-- Create a GitHub personal access token with `repo` scope or `pages:write` permission.
-- Save it as `PAGES_TOKEN` in this repository's Secrets.
-
-The workflow uses `actions/configure-pages@v4` with `enablement: true` to activate Pages if needed.
