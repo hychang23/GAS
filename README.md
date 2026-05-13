@@ -19,6 +19,18 @@ The published site will be available at: `https://hychang23.github.io/GAS/`
 
 ### Setup
 
+To deploy successfully, enable GitHub Pages in the repository settings first:
+
+1. Go to `Settings` → `Pages`
+2. Set the source to `GitHub Actions`
+3. Save the settings
+
+After Pages is enabled, the workflow will build and deploy `./dist` automatically.
+
+If auto-enabling Pages fails, you can still use this workflow once Pages is manually configured.
+
+### Setup
+
 **Option 1: Manual Setup (Simpler)**
 1. Go to repository settings → Pages
 2. Set source to `GitHub Actions`
