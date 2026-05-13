@@ -16,3 +16,16 @@ A Vite + React project for a browser-based snake game.
 
 This repository is configured to deploy `dist/` to GitHub Pages via GitHub Actions.
 The published site will be available at: `https://hychang23.github.io/GAS/`
+
+### Setup
+
+**Option 1: Manual Setup (Simpler)**
+1. Go to repository settings → Pages
+2. Set source to `GitHub Actions`
+3. The workflow will automatically deploy on next push
+
+**Option 2: Auto-enable with Personal Access Token**
+1. Create a GitHub Personal Access Token with `repo` or `pages:write` permission
+2. Add it as a repository secret named `PAGES_TOKEN`
+3. Update the workflow to use `token: ${{ secrets.PAGES_TOKEN }}`
+4. The workflow will automatically enable and deploy Pages
